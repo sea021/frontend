@@ -10,9 +10,10 @@ export default function Navigation() {
   const links = [
     { href: "/", label: "หน้าแรก" },
     { href: "/about", label: "เกี่ยวกับ" },
+    { href: "/service", label: "บริการ" },
     { href: "/contact", label: "ติดต่อ" },
   ];
-
+ 
   return (
     <nav
       style={{
